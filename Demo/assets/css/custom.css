@@ -1,0 +1,370 @@
+/* Write your custom CSS here */
+.picture-heading{
+	text-align: center;
+	padding: 1rem 0;
+}
+/* Write your custom CSS here */
+
+.signup-page1 {
+    background: url(../images/mountains2.jpg) no-repeat;
+    background-size: 1775px;
+}
+.cloud.one {
+  position: absolute;
+  top: 5em;
+  left: 5em;
+  z-index: 0;
+  -webkit-animation: moveClouds 45s linear infinite;
+	-moz-animation: moveClouds 45s linear infinite;
+	animation: moveClouds 45s linear infinite;
+	
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	transform: scale(0.7);
+}
+.cloud.two {
+  position: absolute;
+  left: 80em;
+  top: 20em;
+  z-index: 0;
+  -webkit-animation: moveCloud 45s infinite linear;
+	-moz-animation: moveCloud 45s infinite linear;
+	animation: moveCloud 45s infinite linear;
+	
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+}
+.cloud-body {
+  position: absolute;
+  top: 10em;
+  background: #ffffff;
+  box-shadow: inset 0 .3em .5em lightyellow, 0 0 .5em #ffffff;
+  height: 9em;
+  width: 30em;
+  border-radius: 10em;
+}
+.cloud-top {
+  position: absolute;
+  top: 4em;
+  left: 3em;
+  background: #ffffff;
+  box-shadow: inset 0 .3em .5em lightyellow, 0 0 .5em #ffffff;
+  height: 13em;
+  width: 12em;
+  border-radius: 10em 10em 10% 30%;  
+}
+.cloud-puff {
+  position: absolute;
+  top: 6em;
+  left: 11em;
+  background: #ffffff;
+  box-shadow: inset 0 .3em .5em lightyellow, 0 0 .5em #ffffff;
+  height: 12em;
+  width: 12em;
+  border-radius: 50%;  
+}
+.balloon {
+  position: absolute;
+  background: radial-gradient(closest-side, rgba(106, 0, 193, .2), rgba(106, 0, 193, .8) 85%);
+  height: 3em;
+  width: 2.5em;
+  bottom: 9.8em;
+  right: 4.8em;
+  border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+  box-shadow: inset 0 .2em .2em lightyellow;
+  transform: rotate(185deg);
+  z-index: 0;
+  -webkit-animation: flow 10s infinite;
+	-moz-animation: flow 10s infinite;
+	animation: flow 10s infinite;
+}
+
+.person {
+  position: absolute;
+  height: 0em;
+  width: 15em;
+  z-index: -1;
+}
+
+.head {
+  position: absolute;
+  background: linear-gradient(#f9cc36, #cea212);
+  height: 1.5em;
+  width: 1.5em;
+  bottom: 5.3em;
+  right: 7em;
+  border-radius: 50%;
+  z-index: 0;
+  box-shadow: inset 0 .2em .2em lightyellow;
+}
+.coat {
+  position: absolute;
+  background: linear-gradient(#f9cc36, #cea212);
+  height: 3.5em;
+  width: 2.5em;
+  bottom: 2em;
+  right: 6.5em;
+  border-radius: 5em 5em 20% 20%;
+  z-index: 0;
+}
+.legs {
+  position: absolute;
+  background: linear-gradient(#454545, #000000);
+  height: 3em;
+  width: 1.5em;
+  bottom: 0;
+  right: 7em;
+  border-radius: 0 0 20% 20%;
+  box-shadow: 0 .3em .5em #27380e;
+}
+.arm {
+  position: absolute;
+  background: linear-gradient(#f9cc36, #cea212);
+  height: 1.5em;
+  width: .5em;
+  bottom: 3.5em;
+  right: 6em;
+  border-radius: 20%;
+  transform: rotate(10deg);
+  z-index: 0;
+}
+.string {
+  position: absolute;
+  background: #f3f3f3;
+  height: 5em;
+  width: .1em;
+  bottom: 4.9em;
+  right: 6.1em;
+  border-radius: 20%;
+  transform: rotate(5deg);
+  z-index: 0;
+  -webkit-animation: string 10s infinite;
+	-moz-animation: string 10s infinite;
+	animation: string 10s infinite;
+}
+.sun-rays {
+position: absolute;
+bottom: 32em;
+right: 18em;
+height: 15em;
+width: 15em;
+z-index: -5;
+background: radial-gradient(rgba(255, 237, 175, .8) 50%, rgba(255, 237, 175, .2) 70%);
+border-radius: 50%;
+box-shadow: 0 0 .5em rgba(255, 237, 175, 1);
+-webkit-animation: rays 10s infinite;
+-moz-animation: rays 10s infinite;
+animation: rays 10s infinite;
+}
+.sun {
+position: absolute;
+bottom: 34.5em;
+right: 20.5em;
+height: 10em;
+width: 10em;
+z-index: -5;
+background: rgba(255, 237, 175, 1);
+border-radius: 50%;
+box-shadow: 0 0 1em rgba(255, 237, 175, .5), inset 0 0 .5em #FFFFAD;
+}
+/*Sun Animation*/
+@-webkit-keyframes rays {
+    0% {
+        transform: scale(1.1);
+    }
+    25% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@-moz-keyframes rays {
+    0% {
+        transform: scale(1.1);
+    }
+    25% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes rays {
+    0% {
+        transform: scale(1.1);
+    }
+    25% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+/*Cloud Animation*/
+@-webkit-keyframes moveCloud {
+    0% {
+        left: -25em;
+    }
+    100% {
+        left: 50em;
+    }
+}
+
+@-moz-keyframes moveCloud {
+    0% {
+        left: -25em;
+    }
+    100% {
+        left: 50em;
+    }
+}
+
+@keyframes moveCloud {
+    0% {
+        left: -25em;
+    }
+    100% {
+        left: 100em;
+    }
+}
+/*Cloud Animation*/
+@-webkit-keyframes moveClouds {
+    0% {
+        left: 25em;
+    }
+    100% {
+        left: 50em;
+    }
+}
+
+@-moz-keyframes moveClouds {
+    0% {
+        left: 25em;
+    }
+    100% {
+        left: 50em;
+    }
+}
+
+@keyframes moveClouds {
+    0% {
+        left: 25em;
+    }
+    100% {
+        left: 100em;
+    }
+}
+
+/*Balloon Animation*/
+@-webkit-keyframes flow {
+    0% {
+        transform: rotate(30deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+     100% {
+        transform: rotate(30deg);
+
+    }
+}
+
+@-moz-keyframes flow {
+    0% {
+        transform: rotate(20deg);
+        transform-origin: bottom;
+    }
+    50% {
+        transform: rotate(0deg);
+        transform-origin: bottom;
+    }
+     100% {
+        transform: rotate(20deg);
+        transform-origin: bottom;
+    }
+}
+
+@keyframes flow {
+    0% {
+        transform: rotate(20deg);
+        transform-origin: bottom;
+    }
+    50% {
+        transform: rotate(0deg);
+        transform-origin: bottom;
+    }
+     100% {
+        transform: rotate(20deg);
+        transform-origin: bottom;
+    }
+}
+
+/*String Animation*/
+@-webkit-keyframes string {
+    0% {
+        transform: rotate(3deg);
+        transform-origin: bottom;
+    }
+    50% {
+        transform: rotate(0deg);
+        transform-origin: bottom;
+    }
+     100% {
+        transform: rotate3deg);
+        transform-origin: bottom;
+    }
+}
+
+@-moz-keyframes string {
+    0% {
+        transform: rotate(3deg);
+        transform-origin: bottom;
+    }
+    50% {
+        transform: rotate(0deg);
+        transform-origin: bottom;
+    }
+     100% {
+        transform: rotate(3deg);
+        transform-origin: bottom;
+    }
+}
+
+@keyframes string {
+    0% {
+        transform: rotate(3deg);
+        transform-origin: bottom;
+    }
+    50% {
+        transform: rotate(0deg);
+        transform-origin: bottom;
+    }
+     100% {
+        transform: rotate(3deg);
+        transform-origin: bottom;
+    }
+}
